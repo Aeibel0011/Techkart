@@ -1,0 +1,96 @@
+
+
+img.slide{
+    height: 700px;
+    margin-top: 50px;
+}
+.card{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.card:hover{
+    background-color: black;
+    
+    
+}
+.crd-hd{
+    padding-left: 52px;
+    padding-bottom: 8px;
+}
+.crd-hd-lap{
+    padding-left: 52px;
+    padding-bottom: 30px;
+}
+.hd{
+    padding-left: 479px;
+    height: 21px;
+    margin-top: -68px;
+}
+.logo-ft{
+    margin-top: -116px;
+}
+#text{
+    color: white;
+    font-weight: bold;
+    font-family: emoji;
+}
+.text{
+   
+    margin-top: 37px;
+    font-size: 24px;
+
+}
+.text h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+#order{
+    background: url(https://wallpapers.com/images/featured/black-wuuaobghtdllhliu.jpg);
+    /* background-repeat: no-repeat; */
+   background-size: cover;
+}
+
+#logo{
+    font-size: 32px;
+    font-family: cursive;
+    text-decoration-line: underline;
+}
+#footer-header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    margin-top: 25px;
+}
+#location-bar{
+    background: url(images/footer-background.webp);
+    background-size: cover;
+}
+#footer-logo{
+    
+    font-family: cursive;
+    text-decoration-line: underline;
+
+}
+
+
+#btn-1{
+    background-color: whitesmoke;
+    border: 2px solid black;
+    
+}
+#btn-1:hover{
+    background-color: green;
+    color: black;
+}
+#bar-color{
+    color: white;
+}
+#bar-color:hover{
+  color: red;
+}
+.text-style{
+    color: white;
+}
+.text-style:hover{
+    color: red;
+}

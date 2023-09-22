@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+   <title>TechKart</title>
+    <link rel="icon" href="images/logofullsize.png">
+</head>
+<body>
+    <!--nav bar-->
+      
+    <nav class="navbar navbar-expand-lg bg-dark  fixed-top">
+        <div class="container-fluid">
+            <i><a  id="logo"  class="navbar-brand text-danger fw-bold" href="#">TechKart</a></i>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span  class=" bg-danger navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class=" navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" id="bar-color"  href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " id="bar-color"  href="#order">Order</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle " id="bar-color"  href="#" role="button"  data-bs-toggle="dropdown" aria-expanded="false">
+                  Deals
+                </a>
+                <ul class="dropdown-menu">
+                  <!-- <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li> -->
+                  <li><a class="dropdown-item" href="#">Open Soon...!</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  " href="#location" id="bar-color" aria-disabled="true">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger text-white border-white" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+<!---carousel-->
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/coursel1.webp" class=" slide d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/coursel2.webp" class=" slide d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/coursel3-main.webp" class= " slide d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+<!--order section-->
+
+
+ <div class="container-fluid" class="cont" id="order">
+    <h1 id="text" class="text-center "><span><u>Place Your Order Now</u></span>...!</h1>
+<br>
+<br>
+
+
+    <div class="row">
+      <div class="">
+       <div class="div bg-success-subtle" id="order-now"></div>
+        <div class="container-fluid" >
+            <h1 id="text" class=" crd-hd ">SmartPhones</h1>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div   class="card text-center  ms-5 mb-4 " style="width: 18rem;">
+              <img src="images/oneplus-115G.webp" class="card-img-top" alt="its an picuture">
+              <div class="card-body">
+                <!-- <p class="card-text"><b>WHITE FOREST CAKE</b></p> -->
+                <!-- <h5 class="card-title text-danger">Rs:600</h5> -->
+                <button href="#" id="btn-1" class="btn " onclick="btn()">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center  ms-5 mb-4" style="width: 18rem;">
+              <img src="images/narzo-60-Pro-5g_9.webp" class="card-img-top" alt="its a picture">
+              <div class="card-body">
+                <!-- <h5 class="card-title"><b></b></h5> -->
+                <!-- <h5 class="card-title text-danger"></h5> -->
+                <button href="#" id="btn-1" class="btn " onclick="btn()">Order Now</button> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center  ms-5 mb-4" style="width: 18rem;">
+              <img src="images/iq007.webp" class="card-img-top" alt="its a picture">
+              <div class="card-body">
+                
+                <!-- <p class="card-text"><b></b></p> -->
+                <!-- <h5 class="card-title text-danger"></h5> -->
+                <button href="#" id="btn-1" class="btn "onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+        </div>
+        <h1 id="text" class="crd-hd-lap ">Laptops</h1>
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center  ms-5 mb-4" style="width: 18rem;">
+              <img src="images/dell-laptop-main.webp" class="card-img-top" alt="its a picture">
+              <div class="card-body">
+                
+                <!-- <p class="card-text"><b></b></p> -->
+                <!-- <h5 class="card-title text-danger"></h5> -->
+                <button href="#" id="btn-1" class="btn  "onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-4 col-xxl-4">
+            <div class="card text-center  ms-5 mb-4" style="width: 18rem;">
+              <img src="images/dell-img2.webp" class="card-img-top" alt="its a picture">
+              <div class="card-body">
+        
+                <!-- <p class="card-text"><b></b></p> -->
+                <!-- <h5 class="card-title text-danger"></h5> -->
+                <button href="#" id="btn-1" class="btn "onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2 col-xxl-1">
+            <div class="card text-center  ms-5 mb-4" style="width: 18rem;">
+              <img src="images/dell-lap-img3.webp" class="card-img-top" alt="its a picture">
+              <div class="card-body">
+                
+                <!-- <p class="card-text"><b></b></p> -->
+                <!-- <h5 class="card-title text-danger"></h5> -->
+                <button href="#" id="btn-1" class="btn "onclick="btn()">Order now</button> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--location-->
+<div id="location" class="container-fluid" class="cont">
+<div class="row">   
+<div class=" light" id="location-bar">
+<div class="container-fluid  " id="lctn" >
+  <div class="row">
+    <i> <u></u><h1 id="footer-header" class="text-center fw-bold text-white ">Location</h1></u></i>
+    <div class=" col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+     <i> <h1 id="footer-logo" class="text-danger fw-bold">TechKart</h1></i>
+     <div class="text" col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6 >
+<i><h3   class="text-style" >&lt ERNAKULAM</h3> </i>
+<i><h3   class="text-style" >&lt KERALA</h3></i>
+<i><h3   class="text-style" >&lt INDIA</h3></i>
+    <i><p  class="text-style" >&lt Phone: +918281113627</p>
+        <i><p  class="text-style" >&lt Email: aeibelsebastin6@gmail.com</p>
+            <i><p class="text-style"  >&lt Tele:0484-86452612</p>
+            </div>
+        </div>
+ </div>
+  <div class="col-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+    <iframe  class=" w-100 col-sm-1 col-md-1 col-lg-1 col-xl-1 col-xxl-1"  src="   https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3927.165794754065!2d76.18020577356417!3d10.167175470138812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b081a21fa760cb5%3A0xdfae439e0030a5b8!2sPallipuram%20Basilica%20Rd%2C%20Vypin%2C%20Kochi%2C%20Pallippuram%2C%20Kerala%20683515!5e0!3m2!1sen!2sin!4v1695117853720!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+</div>
+</div>
+</div>
+
+
+    <!--bootsrap js-->
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+    <!--javaScript-->
+    <script src="script.js"></script>
+</body>
+</html>
